@@ -1,0 +1,85 @@
+{
+  "schema": "1.0",
+  "details": {
+    "displayName": "Template-SharePoint file in document library folder to convert to pdf and email",
+    "description": "",
+    "createdTime": "2020-05-21T20:54:01.0661906Z",
+    "packageTelemetryId": "c585571b-7376-46b6-9561-f698e96eebc3",
+    "creator": "Suresh Bolineni",
+    "sourceEnvironment": "Contoso Dev (default) (org6aa763bf)"
+  },
+  "resources": {
+    "1206b470-cc53-4ce0-82b0-26c6d30309f0": {
+      "type": "Microsoft.Flow/flows",
+      "suggestedCreationType": "Update",
+      "creationType": "Existing, New, Update",
+      "details": {
+        "displayName": "Template-SharePoint file to convert to pdf and email"
+      },
+      "configurableBy": "User",
+      "hierarchy": "Root",
+      "dependsOn": [
+        "2e57d50c-3b64-4882-9093-3781b453a530",
+        "7d624628-fa89-40d3-bda5-7849f48672e1",
+        "25f73d99-a021-4575-816c-b5a1b4fa4b88",
+        "baed28fd-5071-45e8-81e9-1ad0833e0a84"
+      ]
+    },
+    "2e57d50c-3b64-4882-9093-3781b453a530": {
+      "id": "/providers/Microsoft.PowerApps/apis/shared_sharepointonline",
+      "name": "shared_sharepointonline",
+      "type": "Microsoft.PowerApps/apis",
+      "suggestedCreationType": "Existing",
+      "details": {
+        "displayName": "SharePoint",
+        "iconUri": "https://connectoricons-prod.azureedge.net/sharepointonline/icon_1.0.1329.1956.png"
+      },
+      "configurableBy": "System",
+      "hierarchy": "Child",
+      "dependsOn": [
+      ]
+    },
+    "7d624628-fa89-40d3-bda5-7849f48672e1": {
+      "type": "Microsoft.PowerApps/apis/connections",
+      "suggestedCreationType": "Existing",
+      "creationType": "Existing",
+      "details": {
+        "displayName": "suresh.bolineni@gmail.com",
+        "iconUri": "https://connectoricons-prod.azureedge.net/sharepointonline/icon_1.0.1278.1753.png"
+      },
+      "configurableBy": "User",
+      "hierarchy": "Child",
+      "dependsOn": [
+        "2e57d50c-3b64-4882-9093-3781b453a530"
+      ]
+    },
+    "25f73d99-a021-4575-816c-b5a1b4fa4b88": {
+      "id": "/providers/Microsoft.PowerApps/apis/shared_office365",
+      "name": "shared_office365",
+      "type": "Microsoft.PowerApps/apis",
+      "suggestedCreationType": "Existing",
+      "details": {
+        "displayName": "Office 365 Outlook",
+        "iconUri": "https://connectoricons-prod.azureedge.net/office365/icon_1.0.1344.1994.png"
+      },
+      "configurableBy": "System",
+      "hierarchy": "Child",
+      "dependsOn": [
+      ]
+    },
+    "baed28fd-5071-45e8-81e9-1ad0833e0a84": {
+      "type": "Microsoft.PowerApps/apis/connections",
+      "suggestedCreationType": "Existing",
+      "creationType": "Existing",
+      "details": {
+        "displayName": "suresh.bolineni@gmail.com",
+        "iconUri": "https://connectoricons-prod.azureedge.net/office365/icon_1.0.1304.1878.png"
+      },
+      "configurableBy": "User",
+      "hierarchy": "Child",
+      "dependsOn": [
+        "25f73d99-a021-4575-816c-b5a1b4fa4b88"
+      ]
+    }
+  }
+}
