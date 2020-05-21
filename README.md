@@ -18,7 +18,7 @@ we can also generate Html from the SharePoint list data and convert into pdf and
 4. Go to 'My flows' section
 5. Click Import and upload the zip package 'Sharepoint files convert to pdf'
 6. You can change the name of th flow and Connections
-7. Click on import. Finally it is imported
+7. Click on import. Finally it will be imported
 8. You can modify the site url, and library name, Site server relative url variables in the flow
 9. Save and run the flow!
 
