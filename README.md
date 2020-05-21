@@ -13,9 +13,9 @@ we can also generate Html from the SharePoint list data and convert into pdf and
   ```
 ### Configure the Flow in your tenant using below steps
 1. Download the folder 'Sharepoint files convert to pdf' as a zip package
-2. Opent the Microsoft flow site
+2. Opent the [Microsoft flow](https://flow.microsoft.com/) site
 3. login with your tenant account
-4. Go to 'my Flows' section
+4. Go to 'My flows' section
 5. Click Import and upload the zip package 'Sharepoint files convert to pdf'
 6. You can change the name of th flow and Connections
 7. Click on import. Finally it is imported
