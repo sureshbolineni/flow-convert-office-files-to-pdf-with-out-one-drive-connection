@@ -82,9 +82,7 @@
                   "ServerRelativeUrl": "@items('Apply_to_each')['ServerRelativeUrl']",
                   "FullServerRelativeUrl": "@first(body('Render_Data')?['ListData']?['Row'])?['FileRef']",
                   "FileType": "@first(body('Render_Data')?['ListData']?['Row'])?['File_x0020_Type']",
-                  "PdfUrl": "@concat(body('Render_Data')?['ListSchema']?['.mediaBaseUrl'],'/transform/pdf?provider=spo&inputFormat=',first(body('Render_Data')?['ListData']?['Row'])?['File_x0020_Type'],'&cs=',body('Render_Data')?['ListSchema']?['.callerStack'],'&docid=',first(body('Render_Data')?['ListData']?['Row'])?['.spItemUrl'],'&',body('Render_Data')?['ListSchema']?['.driveAccessToken'])",
-                  "TOC": "@first(body('Render_Data')?['ListData']?['Row'])?['TOC']",
-                  "Category": "@first(body('Render_Data')?['ListData']?['Row'])?['Category']"
+                  "PdfUrl": "@concat(body('Render_Data')?['ListSchema']?['.mediaBaseUrl'],'/transform/pdf?provider=spo&inputFormat=',first(body('Render_Data')?['ListData']?['Row'])?['File_x0020_Type'],'&cs=',body('Render_Data')?['ListSchema']?['.callerStack'],'&docid=',first(body('Render_Data')?['ListData']?['Row'])?['.spItemUrl'],'&',body('Render_Data')?['ListSchema']?['.driveAccessToken'])"
                 }
               }
             },
