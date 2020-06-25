@@ -1,15 +1,15 @@
 {
   "schema": "1.0",
   "details": {
-    "displayName": "Template-SharePoint file in document library folder to convert to pdf and email",
+    "displayName": "export",
     "description": "",
-    "createdTime": "2020-05-21T20:54:01.0661906Z",
-    "packageTelemetryId": "c585571b-7376-46b6-9561-f698e96eebc3",
+    "createdTime": "2020-06-25T17:22:58.3401682Z",
+    "packageTelemetryId": "4c2fa8c2-72af-434a-8481-2ab3133222d0",
     "creator": "Suresh Bolineni",
-    "sourceEnvironment": "Contoso Dev (default) (org6aa763bf)"
+    "sourceEnvironment": "My Environment"
   },
   "resources": {
-    "1206b470-cc53-4ce0-82b0-26c6d30309f0": {
+    "2e8597a9-54b6-47bb-ae79-a4eb83c9a164": {
       "type": "Microsoft.Flow/flows",
       "suggestedCreationType": "Update",
       "creationType": "Existing, New, Update",
@@ -32,7 +32,7 @@
       "suggestedCreationType": "Existing",
       "details": {
         "displayName": "SharePoint",
-        "iconUri": "https://connectoricons-prod.azureedge.net/sharepointonline/icon_1.0.1329.1956.png"
+        "iconUri": "https://connectoricons-prod.azureedge.net/sharepointonline/icon_1.0.1355.2023.png"
       },
       "configurableBy": "System",
       "hierarchy": "Child",
@@ -44,7 +44,7 @@
       "suggestedCreationType": "Existing",
       "creationType": "Existing",
       "details": {
-        "displayName": "suresh.bolineni@gmail.com",
+        "displayName": "bolineni.suresh@gmail.com",
         "iconUri": "https://connectoricons-prod.azureedge.net/sharepointonline/icon_1.0.1278.1753.png"
       },
       "configurableBy": "User",
@@ -60,7 +60,7 @@
       "suggestedCreationType": "Existing",
       "details": {
         "displayName": "Office 365 Outlook",
-        "iconUri": "https://connectoricons-prod.azureedge.net/office365/icon_1.0.1344.1994.png"
+        "iconUri": "https://connectoricons-prod.azureedge.net/office365/icon_1.0.1360.2036.png"
       },
       "configurableBy": "System",
       "hierarchy": "Child",
@@ -72,7 +72,7 @@
       "suggestedCreationType": "Existing",
       "creationType": "Existing",
       "details": {
-        "displayName": "suresh.bolineni@gmail.com",
+        "displayName": "bolineni.suresh@gmail.com",
         "iconUri": "https://connectoricons-prod.azureedge.net/office365/icon_1.0.1304.1878.png"
       },
       "configurableBy": "User",
