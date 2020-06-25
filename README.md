@@ -20,6 +20,15 @@ we can also generate Html from the SharePoint list data and convert into pdf and
 6. You can change the name of th flow and Connections
 7. Click on import. Finally it will be imported
 8. You can modify the site url, and library name, Site server relative url variables in the flow
-9. Save and run the flow!
+9. Save and run the flow using any tools to call http trigger flow
+```bash
+Post-  <http trigger flow url>
+    PayLoad:
+    {
+    "SiteUrl":"<SharePoint Site url Ex: https://contos.microsoft.com/sites/sitecollection> ",
+    "LibraryTitle":"<Library Title>",
+    "DocumentID":<Document ID>
+    }
+```
 
 
